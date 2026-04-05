@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Carreira em Web3 e Blockchain",
+  title: "Carreira em Web3",
   description: "Apresentação sobre Web3 e Blockchain, oportunidades de carreira e casos de uso reais. Por Sonia Batista - Web3/Blockchain Developer",
 };
 

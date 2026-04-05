@@ -510,7 +510,7 @@ export default function Home() {
         <FadeUp>
           <div className="flex flex-col gap-6 lg:gap-8 max-w-4xl mx-auto py-4">
             {[
-              { step: "01", title: "Fundação", desc: "Foco total em Web3: Inicie sua jornada com CS50 e aprenda os fundamentos de Blockchain e Smart Contracts.", color: "blue" },
+              { step: "01", title: "Fundação", desc: "Foco total em Web3: Inicie sua jornada aprendendo os fundamentos de Blockchain e Smart Contracts.", color: "blue" },
               { step: "02", title: "Construção", desc: "Desenvolva seu primeiro DApp e publique o código no GitHub. Inicie networking estratégico no ecossistema Web3.", color: "purple" },
               { step: "03", title: "Visibilidade", desc: "Escreva sobre seus aprendizados em Web3 + Aplique para 5 vagas ou Hackathons estratégicos.", color: "cyan" }
             ].map((fase, i) => (
