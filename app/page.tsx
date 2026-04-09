@@ -551,7 +551,7 @@ export default function Home() {
                   <div className="min-w-0">
                     <span className="text-[10px] font-black uppercase tracking-[0.3em] text-blue-500/60 mb-1 block">Palestrante</span>
                     <h3 className="text-2xl md:text-3xl font-black text-white tracking-tight truncate">Sonia Batista</h3>
-                    <p className="text-sm md:text-base text-gray-400 font-light italic truncate">Web3 Developer & Mentor</p>
+                    <p className="text-sm md:text-base text-gray-400 font-light italic truncate">Web3 Developer & Mentora</p>
                   </div>
                 </div>
 
@@ -560,8 +560,7 @@ export default function Home() {
                     <QRCodeSVG value="https://www.linkedin.com/in/soniamarabatista/" size={120} />
                   </div>
                   <div className="flex items-center gap-2 text-blue-400 font-black tracking-widest uppercase text-[10px]">
-                    <Linkedin size={16} />
-                    <span>Conectar LinkedIn</span>
+                    <Linkedin size={24} />
                   </div>
                 </div>
               </div>
@@ -592,8 +591,7 @@ export default function Home() {
                     <QRCodeSVG value="https://www.linkedin.com/company/mulheresnaweb3/" size={120} />
                   </div>
                   <div className="flex items-center gap-2 text-purple-400 font-black tracking-widest uppercase text-[10px]">
-                    <Linkedin size={16} />
-                    <span>Company Page</span>
+                    <Linkedin size={24} />
                   </div>
                 </div>
 
