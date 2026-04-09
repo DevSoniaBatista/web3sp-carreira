@@ -534,74 +534,74 @@ export default function Home() {
       title: "Vamos nos Conectar?",
       content: (
         <FadeUp delay={0.3}>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-10 max-w-6xl mx-auto py-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6 max-w-5xl mx-auto py-2">
             {/* Sonia Card */}
-            <div className="bg-gradient-to-br from-gray-900 to-black p-8 lg:p-10 rounded-[3rem] border border-white/5 shadow-2xl relative overflow-hidden group">
+            <div className="bg-gradient-to-br from-gray-900 to-black p-6 lg:p-8 rounded-[2.5rem] border border-white/5 shadow-2xl relative overflow-hidden group">
               <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/5 rounded-full -mr-32 -mt-32 blur-[80px]"></div>
               
-              <div className="flex flex-col gap-6 lg:gap-8 h-full relative z-10">
-                <div className="flex items-center gap-6 lg:gap-8">
-                  <div className="relative w-20 h-20 md:w-24 md:h-24 rounded-[2rem] overflow-hidden border-2 border-blue-500/30 shadow-2xl bg-gray-800 shrink-0">
+              <div className="flex flex-col gap-4 lg:gap-6 h-full relative z-10">
+                <div className="flex items-center gap-4 lg:gap-6">
+                  <div className="relative w-16 h-16 md:w-20 md:h-20 rounded-[1.5rem] overflow-hidden border-2 border-blue-500/30 shadow-2xl bg-gray-800 shrink-0">
                     <Image src="/images/sonia-profile.jpg" alt="Sonia Batista" fill className="object-cover" 
                            onError={(e) => { e.currentTarget.style.display = 'none'; }} />
                     <div className="w-full h-full flex items-center justify-center bg-blue-500/10">
-                      <Users className="w-10 h-10 text-blue-400/50" />
+                      <Users className="w-8 h-8 text-blue-400/50" />
                     </div>
                   </div>
                   <div className="min-w-0">
                     <span className="text-[10px] font-black uppercase tracking-[0.3em] text-blue-500/60 mb-1 block">Palestrante</span>
-                    <h3 className="text-2xl md:text-3xl font-black text-white tracking-tight truncate">Sonia Batista</h3>
-                    <p className="text-sm md:text-base text-gray-400 font-light italic truncate">Web3 Developer & Mentora</p>
+                    <h3 className="text-xl md:text-2xl font-black text-white tracking-tight truncate">Sonia Batista</h3>
+                    <p className="text-xs md:text-sm text-gray-400 font-light italic truncate">Web3 Developer & Mentora</p>
                   </div>
                 </div>
 
-                <div className="flex-1 flex flex-col items-center justify-center gap-4 bg-white/5 rounded-[2.5rem] p-6 lg:p-8 border border-white/5 shadow-inner">
-                  <div className="bg-white p-3 rounded-2xl shadow-2xl group-hover:scale-105 transition-transform">
-                    <QRCodeSVG value="https://www.linkedin.com/in/soniamarabatista/" size={120} />
+                <div className="flex-1 flex flex-col items-center justify-center gap-3 bg-white/5 rounded-[2rem] p-4 lg:p-6 border border-white/5 shadow-inner">
+                  <div className="bg-white p-2 rounded-xl shadow-2xl group-hover:scale-105 transition-transform">
+                    <QRCodeSVG value="https://www.linkedin.com/in/soniamarabatista/" size={100} />
                   </div>
                   <div className="flex items-center gap-2 text-blue-400 font-black tracking-widest uppercase text-[10px]">
-                    <Linkedin size={24} />
+                    <Linkedin size={20} />
                   </div>
                 </div>
               </div>
             </div>
 
             {/* MNW3 Card */}
-            <div className="bg-gradient-to-br from-gray-900 to-black p-8 lg:p-10 rounded-[3rem] border border-white/5 shadow-2xl relative overflow-hidden group">
+            <div className="bg-gradient-to-br from-gray-900 to-black p-6 lg:p-8 rounded-[2.5rem] border border-white/5 shadow-2xl relative overflow-hidden group">
               <div className="absolute top-0 right-0 w-64 h-64 bg-purple-500/5 rounded-full -mr-32 -mt-32 blur-[80px]"></div>
               
-              <div className="flex flex-col gap-6 lg:gap-8 h-full relative z-10">
-                <div className="flex items-center gap-6 lg:gap-8">
-                  <div className="relative w-20 h-20 md:w-24 md:h-24 rounded-[2rem] overflow-hidden border-2 border-purple-500/30 shadow-2xl bg-white p-3 shrink-0">
-                    <Image src="/images/mnw3-logo.jpg" alt="Mulheres na Web3" fill className="object-contain p-3"
+              <div className="flex flex-col gap-4 lg:gap-6 h-full relative z-10">
+                <div className="flex items-center gap-4 lg:gap-6">
+                  <div className="relative w-16 h-16 md:w-20 md:h-20 rounded-[1.5rem] overflow-hidden border-2 border-purple-500/30 shadow-2xl bg-white p-2 shrink-0">
+                    <Image src="/images/mnw3-logo.jpg" alt="Mulheres na Web3" fill className="object-contain p-2"
                            onError={(e) => { e.currentTarget.style.display = 'none'; }} />
                     <div className="w-full h-full flex items-center justify-center bg-purple-500/10">
-                      <Globe className="w-10 h-10 text-purple-400/50" />
+                      <Globe className="w-8 h-8 text-purple-400/50" />
                     </div>
                   </div>
                   <div className="min-w-0">
                     <span className="text-[10px] font-black uppercase tracking-[0.3em] text-purple-500/60 mb-1 block">Comunidade</span>
-                    <h3 className="text-2xl md:text-3xl font-black text-white tracking-tight truncate">Mulheres na Web3</h3>
-                    <p className="text-sm md:text-base text-gray-400 font-light italic truncate">Pertencer, Crescer, Construir</p>
+                    <h3 className="text-xl md:text-2xl font-black text-white tracking-tight truncate">Mulheres na Web3</h3>
+                    <p className="text-xs md:text-sm text-gray-400 font-light italic truncate">Pertencer, Crescer, Construir</p>
                   </div>
                 </div>
 
-                <div className="flex-1 flex flex-col items-center justify-center gap-4 bg-white/5 rounded-[2.5rem] p-6 lg:p-8 border border-white/5 shadow-inner">
-                  <div className="bg-white p-3 rounded-2xl shadow-2xl group-hover:scale-105 transition-transform">
-                    <QRCodeSVG value="https://www.linkedin.com/company/mulheresnaweb3/" size={120} />
+                <div className="flex-1 flex flex-col items-center justify-center gap-3 bg-white/5 rounded-[2rem] p-4 lg:p-6 border border-white/5 shadow-inner">
+                  <div className="bg-white p-2 rounded-xl shadow-2xl group-hover:scale-105 transition-transform">
+                    <QRCodeSVG value="https://www.linkedin.com/company/mulheresnaweb3/" size={100} />
                   </div>
                   <div className="flex items-center gap-2 text-purple-400 font-black tracking-widest uppercase text-[10px]">
-                    <Linkedin size={24} />
+                    <Linkedin size={20} />
                   </div>
                 </div>
 
-                <div className="flex gap-3">
+                <div className="flex gap-2">
                   <a href="https://www.mulheresnaweb3.com/" target="_blank" rel="noopener noreferrer" 
-                     className="flex-1 flex items-center justify-center gap-2 bg-purple-500/10 hover:bg-purple-500/20 text-purple-200 py-4 rounded-2xl border border-purple-500/20 transition-all text-[10px] font-black uppercase tracking-widest">
+                     className="flex-1 flex items-center justify-center gap-2 bg-purple-500/10 hover:bg-purple-500/20 text-purple-200 py-3 rounded-xl border border-purple-500/20 transition-all text-[10px] font-black uppercase tracking-widest">
                     <Globe size={14} /> Website
                   </a>
                   <a href="https://www.instagram.com/mulheresnaweb3" target="_blank" rel="noopener noreferrer"
-                     className="flex-1 flex items-center justify-center gap-2 bg-pink-500/10 hover:bg-pink-500/20 text-pink-200 py-4 rounded-2xl border border-pink-500/20 transition-all text-[10px] font-black uppercase tracking-widest">
+                     className="flex-1 flex items-center justify-center gap-2 bg-pink-500/10 hover:bg-pink-500/20 text-pink-200 py-3 rounded-xl border border-pink-500/20 transition-all text-[10px] font-black uppercase tracking-widest">
                     <Instagram size={14} /> Instagram
                   </a>
                 </div>
