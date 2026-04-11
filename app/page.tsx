@@ -114,32 +114,7 @@ export default function Home() {
         </FadeUp>
       )
     },
-    // 4. CASOS DE USO
-    {
-      section: "CASOS DE USO",
-      title: "Blockchain no Mundo Real",
-      content: (
-        <FadeUp>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto py-4">
-            {[
-              { title: "Imobiliário", desc: "Tokenização de imóveis e frações digitais.", icon: "🏢", color: "blue" },
-              { title: "Supply Chain", desc: "Rastreamento de ponta a ponta (Walmart/IBM).", icon: "⛓️", color: "green" },
-              { title: "Saúde", desc: "Registros médicos seguros e imutáveis.", icon: "🏥", color: "red" },
-              { title: "DeFi", icon: "💳", desc: "Empréstimos e trocas sem bancos tradicionais.", color: "purple" },
-              { title: "Games", icon: "🎮", desc: "NFTs de itens e economia play-to-earn.", color: "cyan" },
-              { title: "Governo", icon: "🏛️", desc: "Identidade digital e votação eletrônica.", color: "indigo" }
-            ].map((uso, i) => (
-              <div key={i} className="bg-gray-800/20 backdrop-blur-sm p-6 rounded-3xl border border-white/5 hover:bg-gray-800/40 transition-all shadow-lg group">
-                <div className="text-3xl mb-3 group-hover:scale-110 transition-transform">{uso.icon}</div>
-                <h4 className="font-black text-white text-sm uppercase tracking-wider mb-1">{uso.title}</h4>
-                <p className="text-xs text-gray-500 leading-relaxed">{uso.desc}</p>
-              </div>
-            ))}
-          </div>
-        </FadeUp>
-      )
-    },
-    // 5. PADRÕES DE TOKENS
+    // 4. PADRÕES DE TOKENS
     {
       section: "PADRÕES",
       title: "Tokens: ERC-20, 721 e 1155",
@@ -170,6 +145,31 @@ export default function Home() {
                 <p className="text-xs text-green-300 font-bold">Ex: Itens de RPG, Packs</p>
               </div>
             </div>
+          </div>
+        </FadeUp>
+      )
+    },
+    // 5. CASOS DE USO
+    {
+      section: "CASOS DE USO",
+      title: "Blockchain no Mundo Real",
+      content: (
+        <FadeUp>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto py-4">
+            {[
+              { title: "Imobiliário", desc: "Tokenização de imóveis e frações digitais.", icon: "🏢", color: "blue" },
+              { title: "Supply Chain", desc: "Rastreamento de ponta a ponta (Walmart/IBM).", icon: "⛓️", color: "green" },
+              { title: "Saúde", desc: "Registros médicos seguros e imutáveis.", icon: "🏥", color: "red" },
+              { title: "DeFi", icon: "💳", desc: "Empréstimos e trocas sem bancos tradicionais.", color: "purple" },
+              { title: "Games", icon: "🎮", desc: "NFTs de itens e economia play-to-earn.", color: "cyan" },
+              { title: "Governo", icon: "🏛️", desc: "Identidade digital e votação eletrônica.", color: "indigo" }
+            ].map((uso, i) => (
+              <div key={i} className="bg-gray-800/20 backdrop-blur-sm p-6 rounded-3xl border border-white/5 hover:bg-gray-800/40 transition-all shadow-lg group">
+                <div className="text-3xl mb-3 group-hover:scale-110 transition-transform">{uso.icon}</div>
+                <h4 className="font-black text-white text-sm uppercase tracking-wider mb-1">{uso.title}</h4>
+                <p className="text-xs text-gray-500 leading-relaxed">{uso.desc}</p>
+              </div>
+            ))}
           </div>
         </FadeUp>
       )
